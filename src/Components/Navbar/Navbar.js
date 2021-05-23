@@ -10,6 +10,8 @@ import {
   NavbarText
 } from 'reactstrap';
 
+import { Link } from 'react-router-dom' ;
+
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,7 +25,7 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/contact">My Contact Details</NavLink>
+              <Link to="/contact"><NavLink>Contact</NavLink></Link>
             </NavItem>
           </Nav>
           <NavbarText>Homework1 ..Coming Soon</NavbarText>

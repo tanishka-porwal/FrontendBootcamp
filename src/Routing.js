@@ -13,12 +13,9 @@ function Routing () {
     <div className="App">
        <Router>
           <Switch>
-           <Route path="/contact">
-            <Contact />
-          </Route>
-           <Route path="/">
-            <App />
-          </Route>
+           <Route path="/contact" component={Contact} />
+           <Route path="/" component={App}/>
+            
         </Switch>
         </Router>
     </div>
