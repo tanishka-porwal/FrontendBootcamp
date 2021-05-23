@@ -34,13 +34,13 @@ function App() {
           <th scope="row">2</th>
           <td>Progress Card</td>
           <td>This link will provide progress card of assignments </td>
-          <td><a href="https://docs.google.com/spreadsheets/d/1c338IfUj11kCTHw7YhWyYMHKM3FfZ8hganfLEi-dUa0/edit?usp=sharing"> Link</a></td>
+          <td><a href="https://docs.google.com/spreadsheets/d/1LP8zSW6I1teJ7RoLqdRtWoU7s3o2A3QxfQMmEW1wXCQ/edit?usp=sharing"> Link</a></td>
         </tr>
         <tr>
           <th scope="row">3</th>
           <td>Front End Github</td>
           <td>Front end github repository link where our instructors can review your code </td>
-          <td><a href="https://docs.google.com/spreadsheets/d/1c338IfUj11kCTHw7YhWyYMHKM3FfZ8hganfLEi-dUa0/edit?usp=sharing"> Link</a></td>
+          <td><a href="https://github.com/sachinrajgire/May24react"> Link</a></td>
         </tr>
       
         
