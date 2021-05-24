@@ -7,7 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarText
 } from 'reactstrap';
 
 import { Link } from 'react-router-dom' ;
@@ -28,7 +27,11 @@ const Example = (props) => {
               <Link to="/contact"><NavLink>Contact</NavLink></Link>
             </NavItem>
           </Nav>
-          <NavbarText>Homework1 ..Coming Soon</NavbarText>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <Link to="/homeworks"><NavLink>Homework</NavLink></Link>
+            </NavItem>
+          </Nav>
         </Collapse>
       </Navbar>
     </div>
