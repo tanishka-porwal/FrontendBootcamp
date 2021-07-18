@@ -10,8 +10,8 @@ function App() {
      <div>
       <Jumbotron fluid>
         <Container fluid>
-          <h1 className="display-3">WELCOME TO BOOTCAMP - MAY 24 EDITION</h1>
-          <p className="lead">My Name is Sachin Rajgire and I am student here </p>
+          <h1 className="display-3">WELCOME TO BOOTCAMP - JULY 18 EDITION</h1>
+          <p className="lead">My Name is Sachin Rajgire and I am instructor  </p>
           <NavBar />
 
           <Table dark>
@@ -30,17 +30,11 @@ function App() {
           <td>This is link to master sheet which has links to everything el</td>
           <td><a href="https://docs.google.com/spreadsheets/d/1LP8zSW6I1teJ7RoLqdRtWoU7s3o2A3QxfQMmEW1wXCQ/edit?usp=sharing"> Mastersheet</a></td>
         </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Progress Card</td>
-          <td>This link will provide progress card of assignments </td>
-          <td><a href="https://docs.google.com/spreadsheets/d/1LP8zSW6I1teJ7RoLqdRtWoU7s3o2A3QxfQMmEW1wXCQ/edit?usp=sharing"> Link</a></td>
-        </tr>
-        <tr>
+      <tr>
           <th scope="row">3</th>
-          <td>Front End Github</td>
-          <td>Front end github repository link where our instructors can review your code </td>
-          <td><a href="https://github.com/sachinrajgire/May24react"> Link</a></td>
+          <td>Github</td>
+          <td>Github repository link where our instructors can review your code </td>
+          <td><a href="https://github.com/sachinrajgire"> Link</a></td>
         </tr>
       
         
@@ -54,3 +48,5 @@ function App() {
 }
 
 export default App;
+
+
