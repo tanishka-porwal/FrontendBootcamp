@@ -34,7 +34,7 @@ function App() {
           <th scope="row">3</th>
           <td>Github</td>
           <td>Github repository link where our instructors can review your code </td>
-          <td><a href="https://github.com/sachinrajgire"> Link</a></td>
+          <td><a href="https://github.com/tanishka-porwal"> Link</a></td>
         </tr>
       
         
